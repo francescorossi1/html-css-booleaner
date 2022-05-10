@@ -4,36 +4,36 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" type="txt/css" href="css/style.css">
+    <link rel="stylesheet" href="css/style.css">
     <title>The Booleaner</title>
 </head>
 <body>
     <header>
 
         <!-- Logo -->
-        <figure>
-            <img src="img/logo.svg" alt="Logo">
+        <figure id="logo_background">
+            <img id="logo" src="img/logo.svg" alt="Logo">
         </figure>
-
+        
         <!-- Header -->
         <h1>Internet deve essere al servizio del "bene pubblico": il manifesto di Tim Berners-Lee </h1>
-        <p>Scritto da The Booleaner</p>
-        <p>il 10/10/2020</p>
+        <address class="gray-text">Scritto da <a href="#">The Booleaner</a></address>
+        <span class="small-text, gray-text">il 10/10/2020</span>
         <figure>
             <img src="img/tim-1.jpg" alt="Tim-1">
             <img src="img/tim-2.jpg" alt="Tim-2">
         </figure>
-        <p>
+        <p class="small-text">
             1st Photo: John S. and James L. Knight Foundation, by Scott Henrichsen<br>
             2nd Photo: Wikimedia, by Paul Clarke
         </p>
     </header>
     <main>
-
+        
         <!-- Paragraph 1 -->
         <div class="paragraph">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis labore ratione nobis assumenda repellat doloribus in maiores aut, alias nostrum amet expedita neque maxime omnis quaerat sunt et, tempore reprehenderit.
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam asperiores inventore eligendi laudantium neque. Eius quasi dolorem vitae consequuntur cum corrupti nihil unde et officiis earum? Tenetur animi blanditiis nemo?
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. <mark>Totam asperiores inventore eligendi laudantium neque.</mark> Eius quasi dolorem vitae consequuntur cum corrupti nihil unde et officiis earum? Tenetur animi blanditiis nemo?
             Lorem ipsum dolor sit, amet consectetur adipisicing elit. Magnam odit ea quas numquam tenetur, iste eveniet cupiditate pariatur itaque. Sed esse repellat porro, magnam officiis rerum soluta suscipit vero quasi.
             <ul>
                 <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus placeat a enim ex sunt. Recusandae totam, voluptate, ea est necessitatibus eum quibusdam maxime vel enim aliquid quis illum quae numquam.</li>
@@ -52,7 +52,7 @@
                 </tr>
             </thead>
             <tbody>
-                <tr>
+                <tr class="aquamarine_row">
                     <td>Lorem ipsum dolor</td>
                     <td>Lorem ipsum dolor</td>
                     <td>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Vel odio rerum nihil nemo iusto maiores nostrum beatae vitae, eum, natus ab ipsam quos quidem? Consequatur officiis ad inventore mollitia ullam!</td>
@@ -62,7 +62,7 @@
                     <td>Lorem ipsum dolor</td>
                     <td>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Vel odio rerum nihil nemo iusto maiores nostrum beatae vitae, eum, natus ab ipsam quos quidem? Consequatur officiis ad inventore mollitia ullam!</td>
                 </tr>
-                <tr>
+                <tr class="aquamarine_row">
                     <td>Lorem ipsum dolor</td>
                     <td>Lorem ipsum dolor</td>
                     <td>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Vel odio rerum nihil nemo iusto maiores nostrum beatae vitae, eum, natus ab ipsam quos quidem? Consequatur officiis ad inventore mollitia ullam!</td>
@@ -74,19 +74,19 @@
         <div class="paragraph">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis labore ratione nobis assumenda repellat doloribus in maiores aut, alias nostrum amet expedita neque maxime omnis quaerat sunt et, tempore reprehenderit.
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam asperiores inventore eligendi laudantium neque. Eius quasi dolorem vitae consequuntur cum corrupti nihil unde et officiis earum? Tenetur animi blanditiis nemo?
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Magnam odit ea quas numquam tenetur, iste eveniet cupiditate pariatur itaque. Sed esse repellat porro, magnam officiis rerum soluta suscipit vero quasi.
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. <mark>Magnam odit ea quas numquam tenetur, iste eveniet cupiditate pariatur itaque.</mark> Sed esse repellat porro, magnam officiis rerum soluta suscipit vero quasi.
         </div>
     </main>
     <footer>
 
         <!-- Redirections -->
         <nav>
-            <h6>Potrebbero interessarti</h6>
-            <div id="Link_Page_1">
-                <span>Lorem ipsum dolor</span>
+            <h4 class="gray-text">Potrebbero interessarti</h4>
+            <div id="link-page-monitor">
+                <span class="internal-text">Lorem ipsum dolor</span>
             </div>
-            <div id="Link_Page_2">
-                <span>Lorem ipsum dolor</span>
+            <div id="link-page-graph">
+                <span class="internal-text">Lorem ipsum dolor</span>
             </div>
         </nav>
     </footer>

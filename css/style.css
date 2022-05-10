@@ -1,0 +1,83 @@
+/* generic */
+body{
+    margin: 0 auto;
+    width: 1080px;
+}
+
+.small-text{
+    font-size: 0.8rem;
+}
+
+.gray-text{
+    color: #808080;
+}
+
+figure{
+    margin: 0;
+}
+
+a{
+    text-decoration: none;
+}
+
+/* logo fixing */
+#logo_background {
+    height: 100px;
+    background-color: #20a9e5;
+    margin: 0;
+    background-image: url(../img/pattern.png);
+    background-size: 35%;
+    line-height: 100px;
+}
+#logo {
+        vertical-align: bottom;
+        width: 20%;
+}
+
+#date {
+    font-size: 10px;
+}
+
+/* table */
+.aquamarine_row>td {
+    background-color: #7fffd4;
+}
+thead {
+    background-color: #20a9e5;
+    color: #fff;
+    width: auto;
+}
+table {
+    border-collapse: collapse;
+    margin-bottom: 40px;
+}
+th {
+    text-align: left;
+    width: 33%;
+}
+
+/* footer */
+
+#link-page-graph {
+    padding-top: 10px;
+    padding-left: 10px;
+    background-image: url(../img/graph.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 180px;
+    width: 200px;
+    margin-bottom: 20px;
+    color: #fff;
+}
+
+#link-page-monitor {
+    padding-top: 10px;
+    padding-left: 10px;
+    background-image: url(../img/monitor.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 180px;
+    width: 200px;
+    margin-bottom: 20px;
+    color: #fff;
+}
